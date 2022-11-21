@@ -1,4 +1,4 @@
-public class QuickSort3 {
+public class Q3QuickSort3 {
 
     public static void main(String[] args) {
         

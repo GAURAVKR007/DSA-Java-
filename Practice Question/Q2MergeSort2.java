@@ -1,4 +1,4 @@
-public class MergeSort2 {
+public class Q2MergeSort2 {
     public static void main(String[] args) {
         
         int[] array = {20,7,23,-87,65,32,77,45};
