@@ -19,7 +19,7 @@ class InsertionSort1 {
 
 
 
-        System.out.print("\nSorted Array using Selectin Sort : ");
+        System.out.print("\nSorted Array using Insertion Sort : ");
         print(myArray);
     }
 
@@ -28,4 +28,6 @@ class InsertionSort1 {
             System.out.print(arr[i]+" ");
         }
     }
+
+    
 }
