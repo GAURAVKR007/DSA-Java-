@@ -101,6 +101,16 @@ class BinaryTree_Implementation {
         return leftNodes + rightNodes + 1;
     }
 
+    public static int sumOfNodes(Node root){
+        
+        if(root == null) return 0;
+
+        int leftSum = sumOfNodes(root.left);
+        int rightSum = sumOfNodes(root.right);
+
+        return leftSum + rightSum + root.data;
+    }
+
     public static void main(String[] args) {
         int nodes[] = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
         MyBinaryTree tree = new MyBinaryTree();
@@ -114,5 +124,6 @@ class BinaryTree_Implementation {
         System.out.println("\nlevelOrder => "); 
         levelOrder(root);
         System.out.println("No of Nodes : "+countNodes(root));
+        System.out.println("Sum of Nodes : "+sumOfNodes(root));
     }
 }
