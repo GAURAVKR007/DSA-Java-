@@ -128,6 +128,7 @@ class BinaryTree_Implementation {
         int diam3 = treeHeight(root.left) + treeHeight(root.right) + 1;
 
         return Math.max(diam3,Math.max(diam1,diam2));
+  
     }
 
     public static void main(String[] args) {
