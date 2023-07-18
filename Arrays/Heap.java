@@ -150,12 +150,7 @@ class Heap {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-
-        // int[] arr = { 14, 77, 54, 99, 34, 65, 21, 5, 57 };
-
-        // n = arr.length;
-        // originalSize = arr.length;
+       Scanner sc = new Scanner(System.in);
 
        System.out.print("Enter how many elements to store in Array : "); 
         originalSize = sc.nextInt();
@@ -218,9 +213,9 @@ class Heap {
             default : System.out.println("Invalid Input");
         }
 
-        
-
        }
+
+       sc.close();
        
         
     }
