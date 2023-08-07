@@ -46,7 +46,5 @@ public class IntersectionArray {
         for(int x: arr){
             System.out.print(x+" ");
         }
-
-        System.out.println(9/10);
     }
 }
