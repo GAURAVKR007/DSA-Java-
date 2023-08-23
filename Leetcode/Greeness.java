@@ -1,6 +1,6 @@
 public class Greeness {
     public static int[] calcGreenSide(int[] gardenGreenness){
-        int n = gardenGreenness.length;
+    int n = gardenGreenness.length;
     int[] greennessOnOtherSide = new int[n];
 
     int[] leftMax = new int[n];
